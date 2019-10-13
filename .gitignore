@@ -1,0 +1,4 @@
+wads/*.wad
+wads/*.pk3
+.DS_Store
+install-git.exe

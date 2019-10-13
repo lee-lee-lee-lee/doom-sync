@@ -1,0 +1,23 @@
+source ./env
+
+# MAC CLIENT SCRIPT
+cat <<EOT > join-game-mac
+git pull https master
+./bin/zandronum -iwad $IWAD -connect $DOOM_SERVER_ADDR_LOCAL -file $WADS
+EOT
+
+chmod 755 join-game-mac
+
+# WIN64 CLIENT SCRIPT #
+cat <<EOT > join-game-windows.bat
+git pull https master
+.\bin\zandronum.exe -iwad $IWAD -connect $DOOM_SERVER_ADDR_LOCAL -file $WADS
+EOT
+
+git add join-game-mac
+git add join-game-windows.bat
+git add env
+git commit -m"$IWAD $WADS"
+git push origin master
+
+./bin/zandronum $SRV_PARAMS -iwad $IWAD -file $WADS $EXTRA

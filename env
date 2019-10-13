@@ -1,6 +1,6 @@
 IWAD="wads/doom2.wad"
 WADS="wads/vacation-doom.wad wads/monster-doom.wad"
-DOOM_SERVER_ADDR_LOCAL="10.1.0.36"
+DOOM_SERVER_ADDR_LOCAL="10.1.0.33"
 DOOM_SERVER_ADDR_REMOTE="24.56.254.30"
 
 SRV_PARAMS="+sv_maxlives 0 -host +sv_hostname doom +sv_rconpassword password +sv_coop_damagefactor 1 +set sv_cheats 1 +set teamdamage 1 +set dmflags 133120 +set dmflags2 14336 +set zadmflags 80 -private"

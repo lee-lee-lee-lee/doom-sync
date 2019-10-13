@@ -1,3 +1,3 @@
 git pull https master
 source ./env
-./bin/zandronum -iwad wads/doom2.wad -connect  -file wads/vacation-doom.wad wads/monster-doom.wad
+./bin/zandronum -iwad $IWAD -connect $DOOM_SERVER_ADDR_LOCAL -file $WADS

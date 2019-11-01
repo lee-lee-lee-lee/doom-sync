@@ -1,5 +1,5 @@
 IWAD="wads/doom2.wad"
-WADS="wads/brutalv21.pk3 wads/e-day.pk3 wads/baldi.wad"
+WADS="wads/project-brutality-2.0.3.pk3 wads/pumpkin-hell.wad"
 DOOM_SERVER_ADDR_LOCAL="10.1.0.33"
 DOOM_SERVER_ADDR_REMOTE="24.56.254.30"
 
@@ -18,3 +18,5 @@ EXTRA=""
 # doom2.wad                      spy-doom.wad
 # e-day.pk3                      star-trek-doom.wad
 # egypt-doom.wad                 vacation-doom.wad
+# project-brutality-2.0.3.pk3
+# pumpkin-hell.wad

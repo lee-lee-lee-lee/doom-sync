@@ -1,5 +1,5 @@
 IWAD="wads/doom2.wad"
-WADS="wads/vacation-doom.wad wads/sonic-doom.pk3"
+WADS="wads/60skins wads/vacation-doom.wad"
 DOOM_SERVER_ADDR_LOCAL="10.1.0.43"
 DOOM_SERVER_ADDR_REMOTE="24.56.254.30"
 

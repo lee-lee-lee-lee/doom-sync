@@ -1,5 +1,5 @@
 IWAD="wads/doom2.wad"
-WADS="wads/brutalv21.pk3 wads/golf.pk3 wads/baldi.wad"
+WADS="wads/brutalv21.pk3 wads/golf.pk3 wads/e-day.pk3"
 DOOM_SERVER_ADDR_LOCAL="10.1.0.41"
 DOOM_SERVER_ADDR_REMOTE="24.56.254.30"
 
